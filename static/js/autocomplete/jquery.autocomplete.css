@@ -1,0 +1,93 @@
+.ac_results {
+	padding: 0px;
+	border: 1px solid #999;
+	background-color: white;
+	overflow: hidden;
+	z-index: 99999;
+}
+
+.ac_results ul {
+	width: 100%;
+	list-style-position: outside;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.ac_results li {
+	margin: 0px;
+	padding-left: 8px;
+	height:26px;
+	line-height: 26px;
+	cursor:pointer;
+	display: block;
+	/* 
+	if width will be 100% horizontal scrollbar will apear 
+	when scroll mode will be used
+	*/
+	/*width: 100%;*/
+	font-size: 14px;
+	/* 
+	it is very important, if line-height not setted or setted 
+	in relative units scroll will be broken in firefox
+	*/
+	overflow: hidden;
+	text-align:left;
+}
+
+.ac_loading {
+	background: white url('indicator.gif') right center no-repeat;
+}
+
+.ac_odd {
+	
+}
+
+.ac_over {
+	background-color: #eee;
+}
+/*搜索 分类*/
+.tab_sort_wrap{
+	margin-top:30px;
+	text-align:left;
+	border:1px solid #ddd;
+	width:615px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.tab_sort_wrap h2{
+	margin:0;
+	font-size:14px;
+	border-bottom:1px solid #ddd;
+	padding:6px 16px;
+	color:#666;
+}
+.tab_sort{ 
+	padding:0 14px;
+}
+.tab_sort .so-nav-tabs{
+	border-bottom:1px solid #ddd;
+}
+.tab_sort div.last{ border-bottom:none;}
+.so-nav-tabs {
+	font-size: 14px;
+	text-align: left;
+	padding-left: 18px;
+	position: relative;
+	z-index: 999
+}
+.so-nav-tabs a, .so-nav-tabs strong {
+	height: 31px;
+	line-height: 31px;
+	display: inline-block;
+	margin-right: 18px;
+*margin-right:17px;
+	color: #333
+}
+.so-nav-tabs a:hover {
+	color: #38f;
+	text-decoration: none
+}
+.so-nav-tabs strong {
+	color: #38f;
+}
